@@ -6,13 +6,15 @@
 // Init function
 void setup()
 {
-  // Begining the stream
+  // Beginning the stream
   Keyboard.begin();
 
   // Waiting 500ms for init
   delay(500);
 
   delay(1000);
+
+  // Open "Run Application"
 
   Keyboard.press(KEY_LEFT_ALT);
   Keyboard.press(KEY_F2);
